@@ -1391,3 +1391,18 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+.title {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+  color: white;
+  font-size: 38px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  pointer-events: none;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8),
+               0 0 20px rgba(0,255,255,0.6);
+}
